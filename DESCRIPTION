@@ -1,0 +1,19 @@
+Package: c4odata
+Type: Package
+Title: Extracts Data from SAP Cloud for Customer (C4C)
+Version: 0.1.0
+Authors@R: c(
+  person("Asitav","Sen", email="codes@asitavsen.com", role=c("aut","cre")),
+  person("LaNubia Consulting",email="info@lanubia.com", role=c("fnd"))
+)
+  
+Maintainer: The package maintainer <codes@asitavsen.com>
+Description: Extract Data from SAP CLoud for Customer using ODATA protocol of SAP. You need to provide the base URL and optional queries.
+License: MIT License
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+LazyData: true
+URL: https://github.com/LaNubia/C4OData
+BugReports: https://github.com/LaNubia/C4OData/issues
+Imports:
+  httr, data.table
